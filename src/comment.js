@@ -19,6 +19,9 @@ export default function comment(props) {
     setBody(task0);
     setTask(null);
   };
+  const doReply = text => {
+    return;
+  };
   useEffect(() => {
     console.log("aaa");
     const d = data.filter(
@@ -102,6 +105,7 @@ export default function comment(props) {
             deleteHandler={() => deleteHandler(idx)}
             postId={item.postId}
             src={item.src}
+            doReply={doReply}
             body={item.comment}
             name={item.name}
             replies={item.replies}

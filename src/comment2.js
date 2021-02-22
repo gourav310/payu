@@ -8,9 +8,16 @@ export default function comment(props) {
   const editHandler = () => {
     setTask("edit");
   };
+  const reply = () => {
+    setTask("reply");
+  };
   const setTask0 = task0 => {
-    setBody(task0);
-    setTask(null);
+    if (task === "edit") {
+      setBody(task0);
+      setTask(null);
+    } else {
+      setTask(null);
+    }
   };
   return (
     <li>
@@ -37,7 +44,7 @@ export default function comment(props) {
           edit={editHandler}
           like={liked => props.likeHandler(liked)}
           likes={props.likes}
-          reply={props.replyHandler}
+          reply={reply}
         />
       ) : (
         <InputBox setTask0={setTask0} />

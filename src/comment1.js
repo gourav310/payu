@@ -11,8 +11,23 @@ export default function comment(props) {
     setTask("edit");
   };
   const setTask0 = task0 => {
-    setBody(task0);
-    setTask(null);
+    if (task === "edit") {
+      setBody(task0);
+      setTask(null);
+    } else {
+      props.doReply(task0);
+      setTask(null);
+    }
+  };
+  const replyHandler = text => {
+    console.log(text);
+    let a = [...level2];
+    a.push(text);
+
+    setLevel2(a);
+  };
+  const reply = () => {
+    setTask("reply");
   };
   //like handler or cmnts at level1(level2)
   useEffect(() => {
@@ -71,7 +86,7 @@ export default function comment(props) {
           edit={editHandler}
           like={liked => props.likeHandler(props.postId, liked)}
           likes={props.likes}
-          reply={props.replyHandler}
+          reply={reply}
         />
       ) : (
         <InputBox setTask0={setTask0} />
@@ -84,6 +99,7 @@ export default function comment(props) {
             src={item.src}
             deleteHandler={() => deleteHandler(idx)}
             likeHandler={liked => likeHandler(item.postId, liked)}
+            replyHandler={replyHandler}
             postId={item.postId}
             body={item.comment}
             name={item.name}
