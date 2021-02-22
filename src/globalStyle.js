@@ -1,6 +1,6 @@
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import style from "styled-theming";
-
+///styling for night mode
 const apply = prop => {
   return style("mode", {
     light: lite[prop],

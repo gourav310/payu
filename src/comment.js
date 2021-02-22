@@ -5,6 +5,8 @@ import Edit from "./edit&reply";
 import data from "./data1.json";
 import Comment1 from "./comment1";
 //used to render comments with simnple data
+
+///level0
 export default function comment(props) {
   const [nestedData, setNested] = useState([]);
   // const [d, setD] = useState(0);

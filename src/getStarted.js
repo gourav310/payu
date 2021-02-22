@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Img from "./img.js";
 import { InputGroup, Input, Button } from "reactstrap";
-
+//page to select avavtar and name
 export default function start(props) {
   const [selectedIdx, setIdx] = useState(1);
   const [name, setName] = useState("");

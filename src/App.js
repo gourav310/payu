@@ -26,6 +26,7 @@ export default function App() {
     } else [setMode("light"), setButton(false)];
   };
   return (
+    //thehe provider for dark and light mode
     <ThemeProvider theme={{ mode: mode }}>
       <GlobalStyle />
       <div className="navbar">
@@ -42,11 +43,13 @@ export default function App() {
           <div>Switch Modes</div>
         </div>
       </div>
+      {/* if user founf then take it to comment section */}
       {userName === null ? (
         <Start sendData={recieveData} />
       ) : (
         <AllComments userName={userName} link={link} />
       )}
+      {/* else take it to select avattar and name*/}
       {/*// <AllComments
       //   userName={"Gourav Khurana"}
       //   link={"https://i.ibb.co/gmdQnxT/batman-512px.png"}

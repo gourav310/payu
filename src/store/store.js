@@ -1,11 +1,8 @@
 import { combineReducers } from "redux";
 import { configureStore } from "@reduxjs/toolkit";
-import { surveySlice } from "./level0.js";
-import { responseSlice } from "./responseSlice";
+// import { level0 } from "./level0.js";
+// import { level1 } from "./level1";
 
-const rootReducer = combineReducers({
-  surveys: surveySlice.reducer
-  // responses: responseSlice.reducer,
-});
+const rootReducer = combineReducers({});
 
 export const store = configureStore({ reducer: rootReducer });

@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import Edit from "./edit&reply";
 import InputBox from "./inputBox";
+// level2
 export default function comment(props) {
   const [task, setTask] = useState(null);
   const [body0, setBody] = useState(props.body);
   const editHandler = () => {
     setTask("edit");
   };
-  const setTask0=(task0)=>{
-    setBody(task0)
-    setTask(null)
-  }
+  const setTask0 = task0 => {
+    setBody(task0);
+    setTask(null);
+  };
   return (
     <li>
       <div
@@ -39,9 +40,7 @@ export default function comment(props) {
           reply={props.replyHandler}
         />
       ) : (
-        <InputBox
-          setTask0={setTask0}
-        />
+        <InputBox setTask0={setTask0} />
       )}
     </li>
   );

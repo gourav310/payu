@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "reactstrap";
-
+///input box for editing and reply
 export default function inputBox(props) {
   const [text, setText] = useState("");
   return (
