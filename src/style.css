@@ -1,0 +1,95 @@
+h1,
+p {
+  font-family: Lato;
+}
+.button {
+  display: inline-block;
+  /* padding-top: 5px; */
+  padding-left: 20px;
+}
+
+.heading {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.navbar {
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frontPage {
+  padding: 20px;
+}
+.post {
+  max-width: 400px;
+  margin: 30px;
+  margin-top: 10px;
+}
+
+.postDetails {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.title0 {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.title1 {
+  border: 2px solid #379683;
+  border-radius: 16px;
+}
+.heading :hover {
+  cursor: pointer;
+}
+.modifyRow {
+  padding-top: 20px !important;
+  margin-top: 20px;
+}
+.editreply {
+  display: flex;
+  padding: 5px;
+}
+.link:hover {
+  cursor: pointer;
+}
+/* ul {
+  margin-right: -5px!important;
+} */
+.link {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  color: #1a0dab;
+  text-decoration: underline;
+}
+.highlight {
+  border: 2px groove #0492c2;
+}
+.user {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  padding-top: 10px;
+}
+.inputBox {
+  border: 1px solid #0492c2;
+  border-radius: 10px;
+}
+.inputButton {
+  height: 30px;
+  padding: 10px;
+  margin: 0px;
+  padding-top: 2px;
+  border-radius: 10px;
+}

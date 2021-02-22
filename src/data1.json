@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Naitik Khurana",
+    "time": "123",
+    "postId": 1.1,
+    "src":"https://i.ibb.co/sw7jfrp/cristiano-ronaldo-512px.png",
+    "comment": "No life ",
+    "likes":10,
+    "replies": [
+      {
+        "name": "Superman",
+        "time": "123",
+        "src":"https://i.ibb.co/sw7jfrp/cristiano-ronaldo-512px.png",
+        "postId": "1.1.1",
+        "likes":0,
+        "comment": "Give me krypton"
+      }
+    ]
+  },
+  {
+    "name": "Vidit Sharma",
+    "time": "129",
+    "postId": 1.2,
+    "src":"https://i.ibb.co/sw7jfrp/cristiano-ronaldo-512px.png",
+    "comment": "No beauty",
+    "likes":0,
+    "replies": [
+      {
+        "name": "batman",
+        "time": "123",
+        "src":"https://i.ibb.co/gmdQnxT/batman-512px.png",
+        "postId": "1.2.1",
+        "likes":25,
+        "comment": "Dark knight rises"
+      },
+      {
+        "name": "Vidit Sharma",
+        "time": "129",
+        "src":"https://i.ibb.co/sw7jfrp/cristiano-ronaldo-512px.png",
+        "postId": "1.2.2",
+        "likes":3,
+        "comment": "yes it will"
+      }
+    ]
+  },
+  {
+    "name": "Mohit Sharma",
+    "time": "129",
+    "postId": 2.1,
+    "likes":0,
+    "src":"https://i.ibb.co/jW6YSTw/dave-grohl-512px.png",
+    "comment": "But color should be changed",
+    "replies": [
+      {
+        "name": "libbu daniel",
+        "time": "123",
+        "postId": "1.2.1",
+        "likes":2,"src":"https://i.ibb.co/sw7jfrp/cristiano-ronaldo-512px.png",
+        "comment": "do a flip"
+      },
+      {
+        "name": "Elon musk",
+        "time": "129",
+        "postId": "1.2.2",
+        "likes":8,
+        "src":"https://i.ibb.co/gmdQnxT/batman-512px.png",
+        "comment": "Give me Doge coins"
+      }
+    ]
+  }
+]

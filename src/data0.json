@@ -1,0 +1,17 @@
+[{
+  "name": "Gourav Khurana",
+  "time": "123",
+  "src":"https://i.ibb.co/gmdQnxT/batman-512px.png",
+  "postId": 1,
+  "likes":50,
+  "comment": "Life is beautiful"
+  
+},{
+  "name": "Vidit Sharma",
+  "time": "129",
+  "likes":80,
+  "src":"https://i.ibb.co/sw7jfrp/cristiano-ronaldo-512px.png",
+  "postId": 2,
+  "comment": "Never judge a book by its cover"
+}
+]
